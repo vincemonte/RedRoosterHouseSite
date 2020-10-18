@@ -11,9 +11,9 @@ def home():
 def menu():
     return render_template('menu.html')
 
-@app.route('/catering')
-def catering():
-    return render_template('catering.html')
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
 
 
 @app.route('/about')
