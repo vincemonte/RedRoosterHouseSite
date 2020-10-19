@@ -12,7 +12,10 @@ main{
 }
 
 
-img{max-width: 100%;}
+img{
+  max-width: 100%;
+  height: auto;
+}
 
 .navbar{
   padding: .5em;
@@ -121,12 +124,14 @@ img{max-width: 100%;}
   width: 80%;
   margin-left: 10%;
   margin-right: auto;
+  margin-top: 8em;
 }
 
 .card{
-  background-color: #0e1111;
+  background-color: #252420;
   color: white;
   border-radius: 1em;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -135,29 +140,29 @@ img{max-width: 100%;}
   background-repeat: no-repeat;
   background-size:cover;
   background-position: 0 20%;
-  height: 100%;
+  min-height: 100vh;
 }
 
 .contact-info-splash{
   background-color: rgba(20, 20, 21, 0.8);
-  position: relative;
-  width: 80%;
-  height: 45%;
-  left: 10%;
-  top: 30%;
+  max-width: 80%;
+  height: 75%;
   color:white;
-  padding: 1em;
+  position: relative;
+  top: 10em;
+  left: 2em;
 }
 
 
+.col-md-7{
+   margin-right: 1em;
+}
 
 .social-media-links{
-  position: relative;
-  bottom: 25%;
-  left: 70%;
-  margin-top: auto;
+  margin-top: 10%;
   color: white;
 }
+
 
 .social-media-links img{
   width: 50px;
@@ -171,6 +176,7 @@ img{max-width: 100%;}
 }
 .social-media-links li{
   padding: 1em;
+  
 }
 
 .social-media-links li a{

@@ -2,18 +2,34 @@
 {%block content%}
 <div class="contact-info">
   <div class="contact-info-splash">
-    <h1 class="display-4">For Catering and Events</h1>
-    <hr class="my-4">
-    <p class="lead">We do reservations for catering and parties with bookings
-      for live performances, entertainment, special events, etc.</p>
-      <div class="social-media-links">
-        <ul>
-          <li><img src="{{url_for('static', filename='images/telephone-call.svg')}}" alt=""><span>516-680-2970</span></li>
-          <li><img src="{{url_for('static', filename='images/instagram.svg')}}" alt=""><a href="https://www.instagram.com/redroosterhouse.rvc/">redroosterhouse.rvc</a></li>
-          <li><img src="{{url_for('static', filename='images/email.svg')}}" alt=""><span>redroosterrvc@gmail.com</span></li>
-        </ul>
-
+    <div class="row">
+      <div class="col-md-7">
+        <h1 class="display-4">For Catering and Events</h1>
+        <hr class="my-4">
+        <p class="lead">We do reservations for catering and parties with bookings
+          for live performances, entertainment, special events, etc.</p>
       </div>
+      <div class="col-sm-4">
+        <div class="social-media-links">
+          <ul>
+            <li><img src="{{url_for('static', filename='images/telephone-call.svg')}}" alt=""><span>516-680-2970</span></li>
+            <li><img src="{{url_for('static', filename='images/instagram.svg')}}" alt=""><a href="https://www.instagram.com/redroosterhouse.rvc/">redroosterhouse.rvc</a></li>
+            <li><img src="{{url_for('static', filename='images/email.svg')}}" alt=""><span>redroosterrvc@gmail.com</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md">
+        <div class="google-map">
+            <h2>Where We're Located</h2>
+            <hr class="my-1">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3026.7870176964593!2d-73.64774364860295!3d40.65662504883607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c27b4e3aae2add%3A0x64517fc90ccb8dea!2s12%20N%20Park%20Ave%2C%20Rockville%20Centre%2C%20NY%2011570!5e0!3m2!1sen!2sus!4v1603134045051!5m2!1sen!2sus" width="450" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+    </div>
+
+
   </div>
 </div>
 {%endblock%}
