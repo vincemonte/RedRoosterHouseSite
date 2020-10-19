@@ -8,7 +8,7 @@ function resizeElementsOnScroll() {
 
 function resizeJumbotron(){
   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
-    document.getElementById("site-jumbotron").style.padding = "7em 5em";
+    document.getElementById("site-jumbotron").style.padding = ".3em";
   }
   else{
     document.getElementById("site-jumbotron").style.padding = "20em 5em";

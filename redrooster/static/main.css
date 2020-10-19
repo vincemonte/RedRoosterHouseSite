@@ -54,12 +54,17 @@ img{max-width: 100%;}
 }
 
 .nav-link{
-  color: white !important;
-  text-shadow: 1px 1px #000000;
+  background: linear-gradient(to right, #CFB53B, #CFB53B 50%, white 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
 }
 
-.navbar li:hover{
-  background-color: #971C1C;
+.nav-link:hover{
+  background-position: 0 100%;
 }
 
 .home-header{
@@ -69,8 +74,8 @@ img{max-width: 100%;}
 
 
 .jumbotron{
-  background-image: url(images/empanadas.JPG);
-  background-position: 50% 35%;
+  background-image: url(images/landing_paella-2.JPG);
+  background-position: 50% 90%;
   background-repeat: no-repeat;
   background-size: cover;
   border-top-left-radius: 0;
@@ -83,11 +88,33 @@ img{max-width: 100%;}
 }
 
 .jumbotron .container{
-  background-color: rgba(20, 20, 21, 0.5);
   padding: 1em;
   border-radius: 2em;
   color: white;
-  padding-bottom: 1em;
+  padding-bottom: 4em;
+  margin-left: 4em;
+}
+
+.homepage-information{
+  background-image: url(images/bar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 25%;
+}
+
+.container-fluid{
+  margin-top: 3em;
+}
+
+.row{
+  width: 90%;
+  margin-right:5%;
+  margin-left: auto;
+}
+
+
+.col-md-5 .card-img-top{
+  height: 35vh;
 }
 
 .col-xl-9{
@@ -96,19 +123,25 @@ img{max-width: 100%;}
   margin-right: auto;
 }
 
+.card{
+  background-color: #0e1111;
+  color: white;
+  border-radius: 1em;
+}
 
 
 .contact-info{
-  background-image: url(images/restaurant_crew.JPG);
+  background-image: url(images/restaurant_front.jpg);
   background-repeat: no-repeat;
   background-size:cover;
+  background-position: 0 20%;
   height: 100%;
 }
 
 .contact-info-splash{
   background-color: rgba(20, 20, 21, 0.8);
   position: relative;
-  width: 50%;
+  width: 80%;
   height: 45%;
   left: 10%;
   top: 30%;
@@ -116,9 +149,31 @@ img{max-width: 100%;}
   padding: 1em;
 }
 
+
+
 .social-media-links{
   position: relative;
+  bottom: 25%;
   left: 70%;
   margin-top: auto;
   color: white;
+}
+
+.social-media-links img{
+  width: 50px;
+  height: 50px;
+  margin-right: 1em;
+}
+
+.social-media-links ul{
+  list-style-type: none;
+  font-size: 20px;
+}
+.social-media-links li{
+  padding: 1em;
+}
+
+.social-media-links li a{
+  color: white;
+
 }
