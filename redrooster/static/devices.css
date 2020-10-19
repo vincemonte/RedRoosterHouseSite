@@ -1,0 +1,49 @@
+/*
+Covering iPhones: 6, 7, 8, and X
+*/
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 812px){
+
+
+    .navbar img{
+      width: 55px;
+      height: 55px;
+      padding-left: 0;
+    }
+
+
+    .nav-restaurant-name{
+      font-size: 25px;
+      padding-right: .6em;
+      padding-left: 0;
+    }
+
+    .jumbotron{
+      padding: 4em 0;
+    }
+
+    .jumbotron .container{
+      padding-top: 7em;
+      margin-left: 0;
+    }
+
+    .jumbotron .display-4{
+      font-size: 30px;
+      margin-bottom: 1em;
+    }
+
+    .jumbotron .lead{
+      font-size: 14px;
+    }
+
+    .col-md-5{
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .col-md-5 .card-img-top{
+      height: 20vh;
+    }
+
+}
