@@ -14,13 +14,13 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-sm navbar-dark" id="navigation-bar">
-        <img class="navbar-brand" id="navbar-brand" src="{{url_for('static', filename='images/RoosterLogo.svg')}}" alt="restaurant logo (rooster)">
+      <nav class="navbar navbar-expand-xl navbar-dark" id="navigation-bar">
+        <a href="{{url_for('home')}}"><img class="navbar-brand" id="navbar-brand" src="{{url_for('static', filename='images/RoosterLogo.svg')}}" alt="restaurant logo (rooster)"></a>
         <span class="nav-restaurant-name" id="nav-restaurant-name">RED ROOSTER HOUSE</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsing-navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarsExample03">
+        <div class="collapse navbar-collapse" id="collapsing-navbar">
           <ul class="navbar-nav ml-auto" id="nav-list-container">
             <li class="nav-item">
               <a class="nav-link" href="{{url_for('home')}}">Home <span class="sr-only">(current)</span></a>

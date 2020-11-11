@@ -1,4 +1,14 @@
-window.addEventListener("scroll", resizeElementsOnScroll);
+function isMobile() {
+  var check = false;
+  if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+  check = true;
+  }
+  return check;
+};
+
+if( isMobile() == false ) {
+ window.addEventListener("scroll", resizeElementsOnScroll);
+}
 
 function resizeElementsOnScroll() {
   resizeJumbotron();

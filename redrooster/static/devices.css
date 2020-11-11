@@ -1,35 +1,55 @@
+
+
 /*
 Covering iPhones: 6, 7, 8, and X
 */
 @media only screen
   and (min-device-width: 320px)
-  and (max-device-width: 812px){
+  and (max-device-width: 767px){
+
+    .navbar-toggler{
+      position: absolute;
+      top: 13%;
+      right: 2%;
+      background-color: rgba(255, 255, 255, 0.25);
+    }
+
+    #collapsing-navbar.navbar-collapse.collapse.show,
+    #collapsing-navbar.navbar-collapse.collapsing{
+      padding: .5em;
+      background-color: rgba(20, 20, 21, 0.99);
+      max-width: 78%;
+      margin-left: 10%;
+      border-radius: .4em;
+    }
 
 
-    .navbar img{
-      width: 55px;
-      height: 55px;
+    .navbar-collapse .nav-item{
       padding-left: 0;
     }
 
+    .navbar-brand{
+      width: 45px !important;
+      height: 45px !important;
+    }
 
     .nav-restaurant-name{
-      font-size: 25px;
-      padding-right: .6em;
-      padding-left: 0;
+      font-size: 21px;
+      margin-left: 2%;
+      margin-right: auto;
+      padding: 0;
     }
-
     .jumbotron{
-      padding: 4em 0;
+      padding: 15em 1em;
     }
 
     .jumbotron .container{
-      padding-top: 7em;
+      padding: 2em 0;
       margin-left: 0;
     }
 
     .jumbotron .display-4{
-      font-size: 30px;
+      font-size: 24px;
       margin-bottom: 1em;
     }
 
@@ -37,13 +57,195 @@ Covering iPhones: 6, 7, 8, and X
       font-size: 14px;
     }
 
+    .homepage-information{
+      background-position: 0 90%;
+    }
+
     .col-md-5{
       margin-left: 0;
       margin-right: 0;
+    }
+    .col-xl-9{
+      width: 95%;
+      margin-left: 2%;
+      margin-right: auto;
+      padding: 0;
     }
 
     .col-md-5 .card-img-top{
       height: 20vh;
     }
+
+
+    .contact-info-splash{
+      top: 5em;
+      padding: 1em;
+    }
+
+    .contact-info p{
+      font-size: 13px;
+    }
+
+    .contact-info ul, .contact-info .col-sm-4{
+      padding: 0 !important;
+    }
+    .contact-info li{
+      padding: 0;
+      max-width: 100%;
+      font-size: 16px;
+      padding-bottom: .5em;
+    }
+    .social-media-links img{
+      width: 32px;
+      height: 32px;
+    }
+
+    .contact-info .display-4, .contact-info h2{
+      font-size: 20px;
+    }
+
+    .google-map iframe{
+      max-width: 250px;
+      max-height: 150px;
+      padding-right: 15%;
+
+    }
+
+}
+
+/*
+Covering iPhone 5SE
+*/
+
+@media screen and (device-aspect-ratio: 40/71){
+
+  .navbar-toggler{
+    right: 3%;
+  }
+
+  .contact-info{
+    background-position: 50% 0;
+  }
+
+
+  .nav-restaurant-name{
+    font-size: 16px;
+    margin-left: 2%;
+    margin-right: auto;
+    padding: 0;
+  }
+
+
+  .social-media-links img{
+    width: 25px;
+    height: 25px;
+  }
+
+  .contact-info-splash{
+    top: 4em;
+    padding: 1em;
+    margin: 0;
+  }
+  .contact-info .display-4, .contact-info h2{
+    font-size: 15px;
+  }
+
+    .google-map iframe{
+      max-width: 200px;
+      max-height: 100px;
+      padding-right: 15%;
+
+    }
+
+    .contact-info li{
+      padding: 0;
+      max-width: 100%;
+      font-size: 12px;
+      padding-bottom: .5em;
+    }
+  }
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1366px){
+
+    .nav-restaurant-name{
+      font-size: 40px;
+      margin-left: 2%;
+      margin-right: auto;
+      padding: 0;
+    }
+    .navbar-brand{
+      width: 100px !important;
+      height: 100px !important;
+    }
+    .navbar-toggler{
+      position: absolute;
+      top: 30%;
+      right: 5%;
+      background-color: rgba(255, 255, 255, 0.25);
+    }
+
+    #collapsing-navbar.navbar-collapse.collapse.show,
+    #collapsing-navbar.navbar-collapse.collapsing{
+      padding: .5em;
+      background-color: rgba(20, 20, 21, 0.99);
+      max-width: 78%;
+      margin-left: 10%;
+      border-radius: .4em;
+    }
+
+    .jumbotron{
+      padding: 16em 0;
+    }
+
+    .jumbotron .display-4{
+      font-size: 45px;
+      margin-bottom: 1em;
+    }
+    .jumbotron .lead{
+      font-size: 20px;
+    }
+
+    .homepage-information .row{
+      max-width: 100%;
+      margin: 0;
+    }
+    .col-md-5 .card-img-top{
+      height: 16vh;
+    }
+
+    .contact-info-splash{
+      max-width: 90%;
+      left: 1em;
+      padding: 1em;
+    }
+
+    .contact-info .col-sm-4, .contact-info .col-md-7{
+      padding: 0;
+      margin: 0;
+    }
+
+    .social-media-links img{
+      width: 39px;
+      height: 39px;
+      margin-right:6px;
+    }
+
+    .social-media-links ul{
+      padding: 0 !important;
+    }
+    .contact-info li{
+      padding: 0;
+      max-width: 100%;
+      font-size: 16px;
+      padding-bottom: .5em;
+    }
+
+    .contact-info .row{
+      margin-bottom: 2em;
+    }
+
+
 
 }

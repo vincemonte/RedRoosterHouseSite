@@ -17,6 +17,16 @@ img{
   height: auto;
 }
 
+#collapsing-navbar.navbar-collapse.collapse.show,
+#collapsing-navbar.navbar-collapse.collapsing  {
+  max-width: 60%;
+  margin-right: 20%;
+  margin-left: auto;
+  text-align: center;
+  background-color: rgba(143, 17, 17, 0.99);
+  border-radius: 1em;
+}
+
 .navbar{
   padding: .5em;
   position: fixed;
@@ -176,7 +186,7 @@ img{
 }
 .social-media-links li{
   padding: 1em;
-  
+
 }
 
 .social-media-links li a{
