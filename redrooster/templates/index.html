@@ -1,6 +1,6 @@
 {%extends "layout.html"%}
 {%block content%}
-<section class='homepage-information'>
+<section class='homepage-information' role="heading">
   <div class="jumbotron" id="site-jumbotron">
     <div class="container">
       <h1 class="display-4 home-header mb-5">Local Spanish Food Done Right</h1>
@@ -12,15 +12,15 @@
   </div>
 
   <div class="container-fluid">
-    <div class="row">
+    <div class="row" role="row" >
       <div class="col-md-5" >
         <div class="card mb-4 shadow-sm border-0">
           <div class="card-header text-center">
             <h5 class = "card-title mb-1">We Have You in Mind</h5>
           </div>
-          <img class="card-img-top" src="{{url_for('static', filename='images/cook_at_stove.jpg')}}" alt="">
+          <img class="card-img-top" role="img" alt="Chef cooking at the stove." src="{{url_for('static', filename='images/cook_at_stove.jpg')}}" alt="">
           <div class="card-body">
-            <p class= "card-text">The health and safety of our customers is our number one priority.
+            <p class= "card-text">The health and safety of our customers and employees is our number one priority.
             All employees are in protective equipment to reduce the spread.
             </p>
           </div>
@@ -31,7 +31,7 @@
           <div class="card-header text-center">
             <h5 class = "card-title mb-1">All of Our Food is Fresh</a>
           </div>
-          <img class="card-img-top" src="{{url_for('static', filename='images/rotisserie.jpg')}}" alt="">
+          <img class="card-img-top" role="img" alt="Chicken on our rotisserie." src="{{url_for('static', filename='images/rotisserie.jpg')}}" alt="">
 
           <div class="card-body">
             <p class= "card-text">From the chicken and empanadas, to our famous paella,

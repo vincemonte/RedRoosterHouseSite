@@ -1,6 +1,6 @@
 {%extends "layout.html"%}
 {%block content%}
-<div class="contact-info">
+<div class="contact-info" role="complementary">
   <div class="contact-info-splash">
     <div class="row">
       <div class="col-md-7">
@@ -12,9 +12,9 @@
       <div class="col-sm-4">
         <div class="social-media-links">
           <ul>
-            <li><img src="{{url_for('static', filename='images/telephone-call.svg')}}" alt=""><a href="tel:1-516-680-2970">(516) 680-2970</a></li>
-            <li><img src="{{url_for('static', filename='images/instagram.svg')}}" alt=""><a href="https://www.instagram.com/redroosterhouse.rvc/">redroosterhouse.rvc</a></li>
-            <li><img src="{{url_for('static', filename='images/email.svg')}}" alt=""><a href="mailto:redroosterrvc@gmail.com">Email</a></li>
+            <li><img role="img" alt="telephone icon" src="{{url_for('static', filename='images/telephone-call.svg')}}" alt=""><a href="tel:1-516-680-2970">(516) 680-2970</a></li>
+            <li><img role="img" alt="instagram icon" src="{{url_for('static', filename='images/instagram.svg')}}" alt=""><a href="https://www.instagram.com/redroosterhouse.rvc/">redroosterhouse.rvc</a></li>
+            <li><img role="img" alt="email icon" src="{{url_for('static', filename='images/email.svg')}}" alt=""><a href="mailto:redroosterrvc@gmail.com">Email</a></li>
           </ul>
         </div>
       </div>
@@ -29,7 +29,7 @@
       </div>
     </div>
 
-
+    <small style="float:right;" class="ml-1 icon-credit">Icons made by <a href="https://www.flaticon.com/authors/bqlqn" title="bqlqn">bqlqn</a> and <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><small>
   </div>
 </div>
 {%endblock%}

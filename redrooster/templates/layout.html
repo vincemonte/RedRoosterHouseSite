@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Red Rooster House (Rockville Centre): Spanish Food, ...</title>
+    <title>Red Rooster House (Rockville Centre): Spanish Food, Authentic Spanish Food, RVC Restaurant</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico')}}" type="image/x-icon"/>
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='bootstrap-reboot.css')}}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='main.css')}}">
@@ -14,7 +15,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-xl navbar-dark" id="navigation-bar">
+      <nav class="navbar navbar-expand-xl navbar-dark" id="navigation-bar" role="navigation">
         <a href="{{url_for('main.home')}}"><img class="navbar-brand" id="navbar-brand" src="{{url_for('static', filename='images/RoosterLogo.svg')}}" alt="restaurant logo (rooster)"></a>
         <span class="nav-restaurant-name" id="nav-restaurant-name">RED ROOSTER HOUSE</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsing-navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">

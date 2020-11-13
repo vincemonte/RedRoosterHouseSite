@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Red Rooster Menu</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico')}}" type="image/x-icon"/>
+    <title>Red Rooster House Menu, Rockville Centre, Authentic Spanish Food Menu</title>
   </head>
-  <body style="margin:0;">
+  <body style="margin:0;" role="menu">
     <object type="application/pdf" data="{{url_for('static', filename='menu.pdf')}}" style="min-height:100vh;width:100%">
     </object>
   </body>
