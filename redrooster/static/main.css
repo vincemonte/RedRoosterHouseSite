@@ -4,6 +4,10 @@ body{
   max-width: 100%;
   overflow-x: hidden;
   font-family:'Open Sans', sans-serif;
+  background-image: url(images/landing_paella.jpg);
+  background-position: 50% 90%;
+  background-repeat: no-repeat;
+  background-size: cover;)
 }
 
 main{
@@ -61,7 +65,7 @@ img{
 .navbar ul{
   font-weight: 700;
   transition: .8s;
-  font-size: 21px;
+  font-size: 21px;home
 }
 
 .nav-link{
@@ -85,7 +89,7 @@ img{
 
 
 .jumbotron{
-  background-image: url(images/landing_paella-2.JPG);
+  background-image: url(images/landing_paella.jpg);
   background-position: 50% 90%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -192,4 +196,8 @@ img{
 .social-media-links li a{
   color: white;
 
+}
+
+.error-section{
+  padding-top: 8em;
 }

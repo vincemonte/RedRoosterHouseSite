@@ -1,21 +1,21 @@
-from redrooster import app
-from flask import render_template
+from flask import Blueprint, render_template
 
+main = Blueprint('main', __name__)
 
-@app.route('/')
-@app.route('/home')
+@main.route('/')
+@main.route('/home')
 def home():
     return render_template('index.html')
 
-@app.route('/menu')
+@main.route('/menu')
 def menu():
     return render_template('menu.html')
 
-@app.route('/contact')
+@main.route('/contact')
 def contact():
     return render_template('contact.html')
 
 
-@app.route('/about')
+@main.route('/about')
 def about():
     return render_template('about.html')
