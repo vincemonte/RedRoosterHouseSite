@@ -76,6 +76,9 @@ Covering iPhones: 6, 7, 8, and X
       height: 20vh;
     }
 
+    .contact-info{
+      background-position: 50% 20%;
+    }
 
     .contact-info-splash{
       top: 5em;
@@ -114,6 +117,19 @@ Covering iPhones: 6, 7, 8, and X
     .icon-credit{
       font-size: 8px;
     }
+
+    .mx-auto.menu-section{
+      padding: 1em;
+    }
+
+
+
+
+    p.s2{
+      padding-left: 0pt !important;
+      margin: 0 auto;
+    }
+
 
 }
 
@@ -167,6 +183,19 @@ Covering iPhone 5SE
       font-size: 12px;
       padding-bottom: .5em;
     }
+
+    .mx-auto.menu-section{
+      padding: 1em;
+    }
+
+
+
+
+    p.s2{
+      padding-left: 0pt !important;
+      margin: 0 auto;
+    }
+
   }
 
 @media only screen
@@ -250,6 +279,18 @@ Covering iPhone 5SE
       margin-bottom: 2em;
     }
 
+    .mx-auto.menu-section{
+      padding: 1em;
+      padding-left: 2em;
+    }
+
+
+
+
+    p.s2{
+      padding-left: 0pt !important;
+      margin: 0 auto;
+    }
 
 
 }
