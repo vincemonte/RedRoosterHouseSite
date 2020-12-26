@@ -7,6 +7,8 @@ Covering iPhones: 6, 7, 8, and X
   and (min-device-width: 320px)
   and (max-device-width: 767px){
 
+
+
     .navbar-toggler{
       position: absolute;
       top: 13%;
@@ -41,6 +43,8 @@ Covering iPhones: 6, 7, 8, and X
     }
     .jumbotron{
       padding: 15em 1em;
+      background-image: url(images/landing_paella.png);
+      background-position: 60% 50%;
     }
 
     .jumbotron .container{
@@ -58,7 +62,7 @@ Covering iPhones: 6, 7, 8, and X
     }
 
     .homepage-information{
-      background-position: 0 90%;
+      background-position: 20% 90%;
     }
 
     .col-md-5{
