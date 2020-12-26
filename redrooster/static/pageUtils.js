@@ -1,8 +1,20 @@
-function isMobile() {
-  var check = false;
-  if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-  check = true;
-  }
+function isMobile(){
+  var standalone = window.navigator.standalone,
+    userAgent = window.navigator.userAgent.toLowerCase(),
+    safari = /safari/.test( userAgent ),
+    ios = /iphone|ipod|ipad/.test( userAgent );
+
+    var check = false;
+
+  if( ios ) {
+      if ( !standalone && safari ) {
+          check = true;
+      } else if ( standalone && !safari ) {
+          check = true;
+      } else if ( !standalone && !safari ) {
+          check = true;
+      };
+  };
   return check;
 };
 

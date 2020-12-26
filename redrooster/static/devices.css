@@ -202,6 +202,9 @@ Covering iPhone 5SE
 
   }
 
+/*
+Covering Tablets
+*/
 @media only screen
   and (min-device-width: 768px)
   and (max-device-width: 1366px){
@@ -234,6 +237,7 @@ Covering iPhone 5SE
 
     .jumbotron{
       padding: 16em 0;
+      background-image: url(images/landing_paella.png);
     }
 
     .jumbotron .display-4{
