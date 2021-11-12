@@ -46,41 +46,97 @@
 </head><body role="main">
 <div class="mx-auto menu-section" role="menu">
     <p class="s2" style="padding-top: 15pt;padding-left: 170pt; padding-bottom: 15pt; text-indent: 0pt;text-align: left;">Tapas and Salads</p>
-    <h3 style="padding-top: 3pt;padding-left: 5pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Ensalada de la casa <span class="p">8</span></h3><p style="padding-left: 35pt;text-indent: 0pt;line-height: 13pt;text-align: left;">House salad with baby greens and roasted vegetables</p><h3 style="padding-top: 11pt;padding-left: 5pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Ensalada de Arugula <span class="p">10</span></h3><p style="padding-left: 31pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Arugula Salad with serrano ham, Manchego cheese and sherry vinaigrette</p><h3 style="padding-top: 11pt;padding-left: 5pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Escalivada <span class="p">9</span></h3><p style="padding-left: 41pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Catalan style ratatouille</p><p style="text-indent: 0pt;text-align: left;"><span><img width="15" height="15" alt="vegan option" src="{{url_for('static', filename='images/vegan.jpg')}}"/></span></p><h3 style="padding-top: 11pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">Empanadas <span class="p">9</span></h3><p style="padding-top: 1pt;padding-left: 24pt;text-indent: 0pt;text-align: left;">(2) Homemade savory turnover. Choice of beef, chicken or vegetarian ( )</p><h3 style="padding-top: 11pt;padding-left: 5pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Quinoa <span class="p">10</span></h3><p style="padding-left: 18pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Quinoa salad, dried fruits, baby greens, grape tomatoes, cappers,</p><p style="padding-left: 152pt;text-indent: 0pt;line-height: 13pt;text-align: left;">fresh herbs dressing</p><h3 style="padding-left: 5pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Pulpo <span class="p">14</span></h3><p style="padding-left: 28pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Grilled octopus with paprika olive oil, and cannellini beans</p><h3 style="padding-top: 11pt;padding-left: 5pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Caracoles <span class="p">10</span></h3><p style="padding-left: 21pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Broiled buttered snails with garlic and parsley</p><h3 style="padding-top: 11pt;padding-left: 5pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Gambas al Ajillo <span class="p">14</span></h3><p style="padding-left: 28pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Sauté shrimp with garlic sauce</p><h3 style="padding-top: 11pt;padding-left: 5pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Chorizos en Cazuela <span class="p">10</span></h3><p style="padding-left: 24pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Spanish sausages, sauté sweet peppers and onions</p><h3 style="padding-top: 11pt;padding-left: 5pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Plato Campero <span class="p">(for 4) 32</span></h3><p style="padding-left: 45pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Spanish cheeses, olives and Spanish charcuterie.</p><p style="text-indent: 0pt;text-align: left;"><br/></p><p class="s1" style="padding-left: 41pt;text-indent: 0pt;text-align: left;">Due to Increasing credit cards fees, we have opted to provide a cash discount of 3.89% instead of increasing</p><p class="s1" style="padding-top: 1pt;padding-left: 185pt;text-indent: 0pt;text-align: left;">our prices for all forms of payments.</p>
+
+    <h3 style="padding-top: 3pt;padding-left: 5pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Ensalada de la casa <span class="p">10</span></h3><p style="padding-left: 35pt;text-indent: 0pt;line-height: 13pt;text-align: left;">House salad with baby greens and roasted vegetables</p>
+
+    <h3 style="padding-top: 11pt;padding-left: 5pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Ensalada de Arugula <span class="p">10</span></h3><p style="padding-left: 31pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Arugula Salad with serrano ham, Manchego cheese and sherry vinaigrette</p>
+
+    <h3 style="padding-top: 11pt;padding-left: 5pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Patatas Bratas (Spicy Potatoes) <span class="p">10</span></h3><p style="padding-left: 41pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Crispy potatoes in a spicy tomato sauce and chipotle aioli</p>
+
+    <h3 style="padding-top: 11pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">Empanadas <span class="p">10</span></h3><p style="padding-top: 1pt;padding-left: 24pt;text-indent: 0pt;text-align: left;">(2) Homemade savory turnover. Choice of beef, chicken or Shrimp ($12)</p>
+
+    <!--<h3 style="padding-top: 11pt;padding-left: 5pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Quinoa <span class="p">10</span></h3><p style="padding-left: 18pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Quinoa salad, dried fruits, baby greens, grape tomatoes, cappers,</p><p style="padding-left: 152pt;text-indent: 0pt;line-height: 13pt;text-align: left;">fresh herbs dressing</p>-->
+
+    <h3 style="padding-left: 5pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Pulpo <span class="p">18</span></h3><p style="padding-left: 28pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Grilled octopus with paprika olive oil, and cannellini beans</p>
+
+    <h3 style="padding-top: 11pt;padding-left: 5pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Caracoles <span class="p">10</span></h3><p style="padding-left: 21pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Broiled buttered snails with garlic and parsley</p>
+
+    <h3 style="padding-top: 11pt;padding-left: 5pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Gambas al Ajillo <span class="p">15</span></h3><p style="padding-left: 28pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Sauté shrimp with garlic sauce</p>
+
+    <h3 style="padding-top: 11pt;padding-left: 5pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Chorizos en Cazuela <span class="p">10</span></h3><p style="padding-left: 24pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Spanish sausages, sauté sweet peppers and onions</p>
+
+    <h3 style="padding-top: 11pt;padding-left: 5pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Plato Campero <span class="p">(for 4) 28</span></h3><p style="padding-left: 45pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Spanish cheeses, olives and Spanish charcuterie.</p><p style="text-indent: 0pt;text-align: left;"><br/></p>
+
+    <p class="s1" style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Parties of 6 or more people wll be charged a minimum of 18% gratuity for service.</p><p class="s1" style="padding-top: 1pt;padding-left: 185pt;text-indent: 0pt;text-align: left;"></p>
+
+
+
+    <p class="s2" style="padding-top: 15pt;padding-left: 190pt; padding-bottom: 15pt;text-indent: 0pt;text-align: left;">Burgers and Sandwiches</p>
+
+    <h2 style="padding-top: 5pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">Rooster Burger<span class="s4">: </span><span class="p">8oz Angus Beef topped with mushrooms, blue cheese, mayo, and a side of fries 17</span></h2>
+
+    <h2 style="padding-top: 5pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">Latin Burger<span class="s4">: </span><span class="p">8oz Angus Beef with lettuce, onion, tomato, bacon, cheddar jack cheese, and chipotle mayo, with a side of yuca fries 17</span></h2>
+
+    <h2 style="padding-top: 5pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">Veggie Burger<span class="s4">: </span><span class="p">Veggie patty with lettuce, onion, tomato, mustard, with a side of sweet potato fries 20</span></h2>
+
+    <h2 style="padding-top: 5pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">Sandwich Cubano (Pressed Cuban Bread)<span class="s4">: </span><span class="p">Sliced roasted pork, ham, swiss cheese, pickles, mustard, mayo, with a side of fries 16</span></h2>
+
+    <h2 style="padding-top: 5pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">Milanesa Sandwich<span class="s4">: </span><span class="p">Breaded chicken breast with lettuce, tomato, mayo, and a side of fries 16</span></h2>
+
+    <p class="s1" style="padding-left: 41pt;text-indent: 0pt;text-align: left;">Extra Toppings $3</p><p class="s1" style="padding-top: 1pt;padding-left: 185pt;text-indent: 0pt;text-align: left;"></p>
+
 
       <p class="s2" style="padding-top: 15pt;padding-left: 190pt; padding-bottom: 15pt;text-indent: 0pt;text-align: left;">Entrees</p>
 
-      <h2 style="padding-top: 2pt;padding-left: 4pt;text-indent: 0pt;">Paella <span class="s3">(for 2)</span></h2><h2 style="padding-top: 5pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">Mar y Tierra<span class="s4">: </span><span class="p">Valencian rice dish with chicken, sea food, sausage 32</span></h2>
+      <h2 style="padding-top: 2pt;padding-left: 4pt;text-indent: 0pt;">Paella <span class="s3">(for 2) 35</span></h2>
 
-      <h2 style="padding-top: 5pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">Marinera: <span class="p">Black Valencian rice with cuttlefish ink and sea food 39</span></h2>
+      <h2 style="padding-top: 2pt;padding-left: 4pt;text-indent: 0pt;">Paella <span class="s3">(for 1) 20</span></h2>
 
-      <h2 style="padding-top: 5pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">Vegetariana<span class="s3">: </span><span class="p">Rice with vegetable combination 28</span></h2>
+      <h2 style="padding-top: 5pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">Mar y Tierra<span class="s4">: </span><span class="p">Valencian rice dish with chicken, sea food, sausage</span></h2>
 
-      <h2 style="padding-top: 5pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">Mariscos <span class="p">(for 2) 40</span></h2><p style="padding-top: 1pt;padding-left: 51pt;text-indent: 0pt;text-align: left;">Seafood combination stew served in a cataplana pan.</p>
+      <h2 style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Salmón a la Plancha <span class="p">25</span></h2><p style="padding-top: 1pt;padding-left: 54pt;text-indent: 0pt;text-align: left;">Norwegian fresh salmon, served with garlic-rosemary mashed potatoes, sauteed vegetables, and romesco (Allergy Advisory: Made with Almonds.)</p>
 
-      <h2 style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Salmón a la Plancha <span class="p">24</span></h2><p style="padding-top: 1pt;padding-left: 54pt;text-indent: 0pt;text-align: left;">Norwegian fresh salmon, served with quinoa, sauté spinach and citrus sauce</p>
+      <h2 style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Albondigas en Salsa Verde (Meatballs in Green Sauce) <span class="p">23</span></h2><p style="padding-top: 1pt;padding-left: 41pt;text-indent: 0pt;text-align: left;">Home-made meatballs, poached in green sauce made of tomatillo, poblano peppers and cilantro, with white rice</p>
 
-      <h2 style="padding-top: 5pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">Mejillones al Vino <span class="p">(Mussels in white wine) 18</span></h2><p style="padding-top: 1pt;padding-left: 51pt;text-indent: 0pt;text-align: left;">New England mussels, shallots, garlic and herbs in a white wine sauce.</p>
+      <h2 style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Churrasco (Grilled Skirt Steak) <span class="p">35</span></h2><p style="padding-top: 1pt;padding-left: 41pt;text-indent: 0pt;text-align: left;">Grilled beef skirt, chimichurri sauce and garlic-rosemary, with a choice of either fries or rice and beans</p>
 
-      <h2 style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Bacalao a la Catalana <span class="p">24</span></h2><p style="padding-top: 1pt;padding-left: 48pt;text-indent: 0pt;text-align: left;">Cod fish with Catalunian style ratatouille (samfainá)</p>
+      <h2 style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Lechon Cubano (Cuban-style Porchetta) <span class="p">20</span></h2><p style="padding-top: 1pt;padding-left: 41pt;text-indent: 0pt;text-align: left;">Slow roasted pork, seasoned with roasted garlic, and latin spices, with a side of rice and beans</p><p style="text-indent: 0pt;text-align: left;"><br/></p>
 
-      <p class="s2" style="padding-top: 15pt;padding-left: 190pt;padding-bottom: 15pt;text-indent: 0pt;text-align: left;">Meats</p><h2 style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Chuleta de Ternera <span class="p">32</span></h2><p style="padding-top: 1pt;padding-left: 41pt;text-indent: 0pt;text-align: left;">Grass fed veal chop with rosemary butter roasted potatoes, and artichokes</p><h2 style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Entraña <span class="p">28</span></h2>
-      <p style="padding-top: 1pt;padding-left: 41pt;text-indent: 0pt;text-align: left;">Grilled beef skirt, chimichurri sauce and garlic-rosemary mashed potatoes</p>
-      <h2 style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Chuleta de Cerdo a la Riojana <span class="p">26</span></h2>
+      <h2 style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Rotisserie Chicken Whole <span class="p">30 </span>Half <span class="p">16</span></h2><p style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Rotisserie chicken served with double cooked herbed potatoes with choice of spiced or</p><p style="padding-left: 149pt;text-indent: 0pt;text-align: left;">avocado sauce</p>
 
-      <p style="padding-top: 1pt;padding-left: 41pt;text-indent: 0pt;text-align: left;">Marinated pork chops, green peas, peppers, and Spanish fries in light wine sauce.</p><p style="text-indent: 0pt;text-align: left;"><br/></p><h2 style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Rotisserie Chicken Whole <span class="p">28 </span>Half <span class="p">14</span></h2><p style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Rotisserie chicken served with double cooked herbed potatoes with choice of spiced or</p><p style="padding-left: 149pt;text-indent: 0pt;text-align: left;">avocado sauce</p><h2 style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Milanesa</h2><p style="padding-left: 34pt;text-indent: 0pt;text-align: left;">- Breaded beef or chicken Milanese with French fries or house salad 22</p><p style="padding-left: 34pt;text-indent: 0pt;text-align: left;">-Topped with tomato sauce, melted cheese and piquillo pepper 25</p>
-
-      <h2 style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Red Rooster Pollo <span class="p">23</span></h2><p style="padding-top: 1pt;padding-left: 38pt;text-indent: 0pt;text-align: left;">Pan seared partially deboned chicken with small potatoes, and prunes in a</p><p style="padding-left: 177pt;text-indent: 0pt;text-align: left;">light wine sauce</p><p style="text-indent: 0pt;text-align: left;"><br/></p>
-      <h2 style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Confit de Pato <span class="p">24</span></h2><p style="padding-top: 1pt;padding-left: 38pt;text-indent: 0pt;text-align: left;">Duck Confit with mashed potatoes and pears in port wine sauce.</p><p style="text-indent: 0pt;text-align: left;"><br/></p>
+      <h2 style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Confit de Pato <span class="p">26</span></h2><p style="padding-top: 1pt;padding-left: 38pt;text-indent: 0pt;text-align: left;">Duck Confit with mashed potatoes and pears in port wine sauce.</p><p style="text-indent: 0pt;text-align: left;"><br/></p>
 
 
       <div class="menu-section-secondary">
-        <table style="border-collapse:collapse;margin-left:15pt" cellspacing="0"><tr style="height:26pt"><td style="width:138pt"><p style="text-indent: 0pt;text-align: left;"><br/></p></td><td style="width:199pt"><p class="s5" style="padding-left: 35pt;padding-right: 86pt;text-indent: 0pt;line-height: 14pt;text-align: center;">Side Dishes</p></td>
+        <table style="border-collapse:collapse;margin-left:15pt" cellspacing="0"><tr style="height:26pt"><td style="width:138pt"><p style="text-indent: 0pt;text-align: left;"><br/></p></td><td style="width:199pt">
+
+          <p class="s5" style="padding-left: 35pt;padding-right: 86pt;text-indent: 0pt;line-height: 14pt;text-align: center;">Side Dishes</p></td>
           <td style="width:97pt"><p style="text-indent: 0pt;text-align: left;"><br/></p></td></tr>
-          <tr style="height:28pt"><td style="width:138pt"><p style="text-indent: 0pt;text-align: left;"><br/></p><p class="s6" style="padding-left: 2pt;text-indent: 0pt;text-align: left;">Yellow Rice</p></td><td style="width:199pt">
-            <p style="text-indent: 0pt;text-align: left;"><br/></p></td>
+          <tr style="height:28pt"><td style="width:138pt"><p style="text-indent: 0pt;text-align: left;"><br/></p>
+
+            <p class="s6" style="padding-left: 2pt;text-indent: 0pt;text-align: left;">Yellow Rice</p></td><td style="width:199pt"><p style="text-indent: 0pt;text-align: left;"><br/></p></td>
             <td style="width:97pt"><p style="text-indent: 0pt;text-align: left;"><br/></p><p class="s6" style="padding-right: 2pt;text-indent: 0pt;text-align: right;">6</p></td>
-          </tr><tr style="height:19pt"><td style="width:138pt"><p class="s6" style="padding-top: 2pt;padding-left: 2pt;text-indent: 0pt;text-align: left;">Quinoa</p></td><td style="width:199pt"><p style="text-indent: 0pt;text-align: left;"><br/></p></td><td style="width:97pt"><p class="s6" style="padding-top: 2pt;padding-right: 3pt;text-indent: 0pt;text-align: right;">7</p></td></tr><tr style="height:19pt"><td style="width:138pt"><p class="s6" style="padding-top: 2pt;padding-left: 2pt;text-indent: 0pt;text-align: left;">Samfainá</p></td><td style="width:199pt"><p style="text-indent: 0pt;text-align: left;"><br/></p></td><td style="width:97pt"><p class="s6" style="padding-top: 2pt;padding-right: 3pt;text-indent: 0pt;text-align: right;">9</p></td></tr><tr style="height:19pt"><td style="width:138pt"><p class="s6" style="padding-top: 2pt;padding-left: 2pt;text-indent: 0pt;text-align: left;">Spanish Fries</p></td><td style="width:199pt"><p style="text-indent: 0pt;text-align: left;"><br/></p></td><td style="width:97pt"><p class="s6" style="padding-top: 2pt;padding-right: 3pt;text-indent: 0pt;text-align: right;">6</p></td></tr><tr style="height:19pt"><td style="width:138pt"><p class="s6" style="padding-top: 2pt;padding-left: 2pt;text-indent: 0pt;text-align: left;">Mashed Potatoes</p></td><td style="width:199pt"><p style="text-indent: 0pt;text-align: left;"><br/></p></td><td style="width:97pt"><p class="s6" style="padding-top: 2pt;padding-right: 3pt;text-indent: 0pt;text-align: right;">6</p></td></tr><tr style="height:19pt"><td style="width:138pt"><p class="s6" style="padding-top: 2pt;padding-left: 2pt;text-indent: 0pt;text-align: left;">French Fries</p></td><td style="width:199pt"><p style="text-indent: 0pt;text-align: left;"><br/></p></td><td style="width:97pt"><p class="s6" style="padding-top: 2pt;padding-right: 3pt;text-indent: 0pt;text-align: right;">7</p></td></tr><tr style="height:19pt"><td style="width:138pt">
+          </tr><tr style="height:19pt"><td style="width:138pt">
+            <p class="s6" style="padding-left: 2pt;text-indent: 0pt;text-align: left;">White Rice</p></td><td style="width:199pt"><p style="text-indent: 0pt;text-align: left;"><br/></p></td>
+            <td style="width:97pt"><p style="text-indent: 0pt;text-align: left;"><br/></p><p class="s6" style="padding-right: 2pt;text-indent: 0pt;text-align: right;">6</p></td>
+          </tr><tr style="height:19pt"><td style="width:138pt">
+            <p class="s6" style="padding-top: 2pt;padding-left: 2pt;text-indent: 0pt;text-align: left;">Extra Sauce</p></td><td style="width:199pt"><p style="text-indent: 0pt;text-align: left;"><br/></p></td><td style="width:97pt">
+              <p class="s6" style="padding-top: 2pt;padding-right: 3pt;text-indent: 0pt;text-align: right;">2</p></td></tr><tr style="height:19pt"><td style="width:138pt">
+
+                <p class="s6" style="padding-top: 2pt;padding-left: 2pt;text-indent: 0pt;text-align: left;">Yuca Fries</p></td><td style="width:199pt"><p style="text-indent: 0pt;text-align: left;"><br/></p></td><td style="width:97pt">
+                  <p class="s6" style="padding-top: 2pt;padding-right: 3pt;text-indent: 0pt;text-align: right;">8</p></td></tr><tr style="height:19pt"><td style="width:138pt">
+
+                  <p class="s6" style="padding-top: 2pt;padding-left: 2pt;text-indent: 0pt;text-align: left;">Spanish Fries</p></td><td style="width:199pt"><p style="text-indent: 0pt;text-align: left;"><br/></p></td><td style="width:97pt">
+                    <p class="s6" style="padding-top: 2pt;padding-right: 3pt;text-indent: 0pt;text-align: right;">8</p></td></tr><tr style="height:19pt"><td style="width:138pt">
+
+                    <p class="s6" style="padding-top: 2pt;padding-left: 2pt;text-indent: 0pt;text-align: left;">Mashed Potatoes</p></td><td style="width:199pt"><p style="text-indent: 0pt;text-align: left;"><br/></p></td><td style="width:97pt">
+                      <p class="s6" style="padding-top: 2pt;padding-right: 3pt;text-indent: 0pt;text-align: right;">6</p></td></tr><tr style="height:19pt"><td style="width:138pt">
+
+                      <p class="s6" style="padding-top: 2pt;padding-left: 2pt;text-indent: 0pt;text-align: left;">French Fries</p></td><td style="width:199pt"><p style="text-indent: 0pt;text-align: left;"><br/></p></td><td style="width:97pt">
+                        <p class="s6" style="padding-top: 2pt;padding-right: 3pt;text-indent: 0pt;text-align: right;">6</p></td></tr><tr style="height:19pt"><td style="width:138pt">
+
+                          <p class="s6" style="padding-top: 2pt;padding-left: 2pt;text-indent: 0pt;text-align: left;">Sweet Potato Fries</p></td><td style="width:199pt"><p style="text-indent: 0pt;text-align: left;"><br/></p></td><td style="width:97pt">
+                            <p class="s6" style="padding-top: 2pt;padding-right: 3pt;text-indent: 0pt;text-align: right;">8</p></td></tr><tr style="height:19pt"><td style="width:138pt">
 
 
           </td><td style="width:97pt"><p style="text-indent: 0pt;text-align: left;"><br/></p></td></tr><tr style="height:29pt"><td style="width:138pt"><p style="text-indent: 0pt;text-align: left;"><br/></p></td><td style="width:199pt"><p style="text-indent: 0pt;text-align: left;"><br/></p></td><td style="width:97pt"><p style="text-indent: 0pt;text-align: left;"><br/></p></td></tr>
@@ -107,8 +163,8 @@
 
       </table>
 
-
-
+      <hr class="big-divide">
+      <p class="s1" style="padding-left: 41pt;text-indent: 0pt;text-align: left;">Due to Increasing credit cards fees, we have opted to provide a cash discount of 3.89% instead of increasing</p><p class="s1" style="padding-top: 1pt;padding-left: 185pt;text-indent: 0pt;text-align: left;">our prices for all forms of payments.</p>
 
 
 
